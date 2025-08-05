@@ -1,0 +1,50 @@
+#include <algorithm>
+#include<vector>
+#include <iostream>
+#include <iomanip>
+#include<cmath>
+using namespace std;
+int  main()
+{
+	int a, b;
+	char s;
+	cin >> a>>s >> b;
+ 
+	if (s=='=')
+	{
+		if (a == b)
+		{
+			cout << "Right";
+		}
+		else
+		{
+			cout << "Wrong";
+ 
+		}
+	}
+	if (s == '>')
+	{
+		if (a > b)
+		{
+			cout << "Right";
+		}
+		else
+		{
+			cout << "Wrong";
+ 
+		}
+	}
+	if (s == '<')
+	{
+		if (a < b)
+		{
+			cout << "Right";
+		}
+		else
+		{
+			cout << "Wrong";
+ 
+		}
+	}
+	
+}
