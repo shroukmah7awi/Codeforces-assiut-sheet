@@ -1,0 +1,20 @@
+
+#include <iostream>
+#include <iomanip>
+#include<cmath>
+using namespace std;
+int  main()
+{ 
+	char x;
+	cin >> x;
+ 
+	if (x >= 'a' && x <= 'z')
+	{
+		cout <<char( toupper( x)) ;
+	}
+	else if (x >= 'A' && x <= 'Z')
+	{
+		cout << char(tolower(x));
+	}
+ 
+}
