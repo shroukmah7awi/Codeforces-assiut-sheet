@@ -1,0 +1,18 @@
+#include <algorithm>
+#include<vector>
+#include <iostream>
+#include <iomanip>
+#include<cmath>
+using namespace std;
+int  main()
+{
+	long long a, b, c;
+	cin >> a >> b >> c;
+ 
+	long long nums[3] = {a,b,c};
+	sort(nums, nums+3);
+ 
+	cout << nums[0] << "\n" << nums[1] << "\n" << nums[2] << "\n\n";
+	cout << a << "\n" << b << "\n" << c << endl;
+ 
+}
